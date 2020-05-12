@@ -54,12 +54,11 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
-    // event.preventDefault();
     var name = $("input#MERGE1").val();
     var email = $("input#MERGE0").val();
     var message = $("textarea#comment").val();
     if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-      alert (name + ", we have received your response. We will get back to you soon.
+      alert ("Thank you for reaching out.We will get back to you soon.""
     else {
       alert("Please enter your name and email!");
     }
