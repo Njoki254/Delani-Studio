@@ -14,11 +14,11 @@ The goal of this project was to reach a deeper and comprehensive understanding o
 I achieved this through creating a website of a dummy studio company.
 
 ## Technologies Used
-*html
-*CSS
-*JS
-*jQuery
-*Markdown
+html
+CSS
+JS
+jQuery
+Markdown
 
 ## Project Objectives:
   *I used two jQuery functions,
@@ -37,9 +37,6 @@ I achieved this through creating a website of a dummy studio company.
 ## Licence
 
 MIT Licence:
-
-Copyright (c) [2020] [Faith Njoki Kamau]
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this project and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -57,3 +54,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+Copyright (c) [2020] [Faith Njoki Kamau]
