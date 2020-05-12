@@ -13,7 +13,7 @@ The goal of this project was to reach a deeper and comprehensive understanding o
 
 I achieved this through creating a website of a dummy studio company.
 
-Technologies Used
+## Technologies Used
 *html
 *CSS
 *JS
@@ -26,7 +26,7 @@ Technologies Used
   *Used bootstrap to make it visually appealing and
   *Used forms to collect user data.
 
-Technical Requirements
+## Technical Requirements
 
 *The project should be polished in a portfolio quality state.
 *The project should contain regular git commits with appropriate commit messages associated with them.
@@ -34,7 +34,7 @@ Technical Requirements
 *The business logic and UI logic of the code should be separated.
 *The project code should be consistently indented & follows proper syntax which includes camelcase and appropriate naming of variables.
 
-Licence
+## Licence
 
 MIT Licence:
 
