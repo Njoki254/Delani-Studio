@@ -1,11 +1,11 @@
 # Example site
 
-Author
-Njoki Kamau
+## Author
+**Njoki Kamau**
 
 Delani Studio Project
 
-Below is the Live Page
+Here is the Live Page
 [Delani Studio Link](https://njoki254.github.io/Delani-Studio/)
 
 
@@ -14,25 +14,26 @@ The goal of this project was to reach a deeper and comprehensive understanding o
 I achieved this through creating a website of a dummy studio company.
 
 ## Technologies Used
-html
-CSS
-JS
-jQuery
-Markdown
+-Html,
+-CSS,
+-JS,
+-jQuery,
+-Markdown
 
 ## Project Objectives:
-  *I used two jQuery functions,
-  *Used one or more javascript functions where necessary,
-  *Used bootstrap to make it visually appealing and
-  *Used forms to collect user data.
+  -I used two jQuery functions,
+  -Used one or more javascript functions where necessary,
+  -Used bootstrap to make it visually appealing and
+  -Used forms to collect user data.
 
 ## Technical Requirements
 
-*The project should be polished in a portfolio quality state.
-*The project should contain regular git commits with appropriate commit messages associated with them.
-*The working project should be deployed and the link to the live site *provided on the Github repository.
-*The business logic and UI logic of the code should be separated.
-*The project code should be consistently indented & follows proper syntax which includes camelcase and appropriate naming of variables.
+-The project is polished in a portfolio quality state.
+-The project contains regular git commits with appropriate commit messages associated with them.
+-The working project is deployed and the link to the live site
+-provided on the Github repository.
+-The business logic and UI logic of the code are separated.
+-The project code is consistently indented & follows proper syntax which includes camelcase and appropriate naming of variables.
 
 ## Licence
 
@@ -54,4 +55,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Copyright (c) [2020] [Faith Njoki Kamau]
+**Copyright (c) [2020] [ Njoki Kamau]**
