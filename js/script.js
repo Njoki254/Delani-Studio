@@ -1,94 +1,106 @@
+// Form function
+$(document).ready(function(){
+  $("form#form34A").submit(function(event){
+    // event.preventDefault();
+    var name = $("input#MERGE1").val();
+    var email = $("input#MERGE0").val();
+    var message = $("textarea#comment").val();
+    if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+      alert (name + ", we have received your response and will get back to you soon. Cheers!");
+    }
+    else {
+      alert("Please enter your name and email address!");
+    }
+
+  });
+
+});
+
+//What we do click function
+
 $(document).ready(function(){
   $("#development-image").click(function(){
-    $("#development-image").slideDown('1500').hide('1000');
-    $("#development").show('1500');
+    $("#development").show(500);
+    $("#development-image").hide(500);
   });
-  $("#development").click(function(){
-    $("#development").slideUp('1500');
-    $("#development-image").slideDown('1500');
+  $("#development").mouseout(function(){
+    $("#development-image").show(500);
+    $("#development").hide(500);
   });
 });
 
 $(document).ready(function(){
   $("#design-image").click(function(){
-    $("#design-image").slideDown('1500').hide('1000');
-    $("#design").show('1500');
+    $("#design").show(500);
+    $("#design-image").hide(500);
   });
-  $("#design").click(function(){
-    $("#design").slideUp('1500');
-    $("#design-image").slideDown('1500');
+  $("#design").mouseout(function(){
+    $("#design-image").show(500);
+    $("#design").hide(500);
   });
 });
 
 $(document).ready(function(){
   $("#product-image").click(function(){
-    $("#product-image").slideDown('1500').hide('1000');
-    $("#product").show('1500');
+    $("#product").show(500);
+    $("#product-image").hide(500);
   });
-  $("#product").click(function(){
-    $("#product").slideUp('1500');
-    $("#product-image").slideDown('1500');
-  });
-});
-
-});
-});
-    }, function(){
-    $(this).css("background-color", "pink");
-  });
-
-  }
-}
-});
-$(document).ready(function(){
-  $("#work3").mouseover(function(){
-    $("#overlay3").show();
-  }).mouseout(function(){
-    $("#overlay3").hide();
-  });
-});
-$(document).ready(function(){
-  $("#work4").mouseover(function(){
-    $("#overlay4").show();
-  }).mouseout(function(){
-    $("#overlay4").hide();
+  $("#product").mouseout(function(){
+    $("#product-image").show(500);
+    $("#product").hide(500);
   });
 });
 
+//Project Portfolios Hover functions
+
 $(document).ready(function(){
-  $("#work5").mouseover(function(){
-    $("#overlay5").show();
-  }).mouseout(function(){
-    $("#overlay5").hide();
+  $("#work1").mouseenter(function(){
+    $("#overlay").show(1000);
+  }).mouseleave(function(){
+    $("#overlay").hide();
   });
-  $("#work6").mouseover(function(){
-    $("#overlay6").show();
-  }).mouseout(function(){
+});
+$(document).ready(function(){
+  $("#work2").mouseenter(function(){
+    $("#overlay2").show(1000);
+  }).mouseleave(function(){
+    $("#overlay2").hide(1000);
+  });
+});
+$(document).ready(function(){
+  $("#work3").mouseenter(function(){
+    $("#overlay3").show(1000);
+  }).mouseleave(function(){
+    $("#overlay3").hide(1000);
+  });
+});
+$(document).ready(function(){
+  $("#work4").mouseenter(function(){
+    $("#overlay4").show(1000);
+  }).mouseleave(function(){
+    $("#overlay4").hide(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#work5").mouseenter(function(){
+    $("#overlay5").show(1000);
+  }).mouseleave(function(){
+    $("#overlay5").hide(1000);
+  });
+  $("#work6").mouseenter(function(){
+    $("#overlay6").show(1000);
+  }).mouseleave(function(){
     $("#overlay6").hide();
   });
-  $("#work7").mouseover(function(){
-    $("#overlay7").show();
-  }).mouseout(function(){
-    $("#overlay7").hide();
+  $("#work7").mouseenter(function(){
+    $("#overlay7").show(1000);
+  }).mouseleave(function(){
+    $("#overlay7").hide(1000);
   });
-  $("#work8").mouseover(function(){
-    $("#overlay8").show();
-  }).mouseout(function(){
-    $("#overlay8").hide();
+  $("#work8").mouseenter(function(){
+    $("#overlay8").show(1000);
+  }).mouseleave(function(){
+    $("#overlay8").hide(1000);
   });
-});
-
-$(document).ready(function(){
-  $("form#form34A").submit(function(event){
-    var name = $("input#MERGE1").val();
-    var email = $("input#MERGE0").val();
-    var message = $("textarea#comment").val();
-    if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-      alert ("Thank you for reaching out.We will get back to you soon.""
-    else {
-      alert("Please enter your name and email!");
-    }
-
-  });
-
 });
