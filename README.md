@@ -14,26 +14,26 @@ The goal of this project was to reach a deeper and comprehensive understanding o
 I achieved this through creating a website of a dummy studio company.
 
 ## Technologies Used
--Html,
--CSS,
--JS,
--jQuery,
--Markdown
+- Html,
+- CSS,
+- JS,
+- jQuery,
+- Markdown
 
 ## Project Objectives:
-  -I used two jQuery functions,
-  -Used one or more javascript functions where necessary,
-  -Used bootstrap to make it visually appealing and
-  -Used forms to collect user data.
+  - I used two jQuery functions,
+  - Used one or more javascript functions where necessary,
+  - Used bootstrap to make it visually appealing and
+  - Used forms to collect user data.
 
 ## Technical Requirements
 
--The project is polished in a portfolio quality state.
--The project contains regular git commits with appropriate commit messages associated with them.
--The working project is deployed and the link to the live site
--provided on the Github repository.
--The business logic and UI logic of the code are separated.
--The project code is consistently indented & follows proper syntax which includes camelcase and appropriate naming of variables.
+- The project is polished in a portfolio quality state.
+- The project contains regular git commits with appropriate commit messages associated with them.
+- The working project is deployed and the link to the live site
+- provided on the Github repository.
+- The business logic and UI logic of the code are separated.
+- The project code is consistently indented & follows proper syntax which includes camelcase and appropriate naming of variables.
 
 ## Licence
 
