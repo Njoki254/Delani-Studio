@@ -12,7 +12,7 @@ html{
   font-family: sans-serif, ;
   padding-bottom: 15%
 }
-.about{
+.aboutus{
   text-align: center;
   padding-bottom: 30px;
   padding-top:40px;
@@ -30,34 +30,34 @@ html{
   font-size: 18px;
 
 }
-
-}
-.servicesoverlay{
-  background-color: rgba(0,0,0,0.4);
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
 .what-we-do{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
 }
-#headings{
+#what-we-do{
   padding-bottom: 38px;
 }
-#portfolio{
+#projects{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left:18%;
+  margin-right: 18%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left:18%;
-  margin-right: 16%;
-}
-.col-md-3 img{
+  }
+  .col-md-3 img{
   max-width: 100%;
   max-height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .portfolio {
   text-align: center;
-  padding-top:40px;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 .contact{
   background-image: url('../images/backgrounds/c_image.jpg');
@@ -65,10 +65,6 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  /* text-align: center; */
-}
-#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8{
-
 }
 .title{
   padding: 6px;
@@ -109,30 +105,6 @@ html{
   text-align: center;
   color:white;
 }
-button{
-  display:block;
-  margin-left:auto;
-  margin-right: auto;
-  padding-bottom: 30px;
-  margin-bottom: 20px;
-}
-footer{
-  text-align: center;
-  padding-top: 30px;
-  font-family: 'Delius Swash Caps', cursive;
-}
-footer p{
-  margin-top: 10px;
-}
-#product, #development, #design{
-  display: none;
-  font-family: 'Copse', serif;
-  font-size: 16px;
-}
-#product .title, #development .title, #design .title{
-  font-size: 20px;
-  font-weight: 600;
-}
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
   color: black;
@@ -146,17 +118,18 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
 }
-  }
-  .col-md-3 img{
-    width:100%px;
-    margin: 20px;
-  }
-  #portfolio{
-    margin-left:8%;
-    margin-right: 16%;
-  }
+button{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+footer{
+  text-align: center;
+  padding-top: 30px;
+}
   button{
     margin-left: 2%;
     padding-bottom: 30px;

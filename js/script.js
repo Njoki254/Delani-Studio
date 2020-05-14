@@ -23,7 +23,7 @@ $(document).ready(function(){
     $("#development").show(500);
     $("#development-image").hide(500);
   });
-  $("#development").mouseout(function(){
+  $("#development").click(function(){
     $("#development-image").show(500);
     $("#development").hide(500);
   });
@@ -34,7 +34,7 @@ $(document).ready(function(){
     $("#design").show(500);
     $("#design-image").hide(500);
   });
-  $("#design").mouseout(function(){
+  $("#design").click(function(){
     $("#design-image").show(500);
     $("#design").hide(500);
   });
