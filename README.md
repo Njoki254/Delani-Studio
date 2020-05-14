@@ -15,10 +15,11 @@ I achieved this through creating a website of a dummy studio company.
 
 ## Technologies Used
 - Html,
-- CSS,
+- CSS, Bootstrap
 - JS,
-- jQuery,
+- jQuery Core 3.5, and Ajax
 - Markdown
+- MailChimp
 
 ## Project Objectives:
   - I used two jQuery functions,

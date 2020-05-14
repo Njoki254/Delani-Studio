@@ -1,4 +1,4 @@
-// Form function
+
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
     // event.preventDefault();
@@ -16,40 +16,28 @@ $(document).ready(function(){
 
 });
 
-//What we do click function
-
 $(document).ready(function(){
   $("#development-image").click(function(){
-    $("#development").show(500);
-    $("#development-image").hide(500);
-  });
-  $("#development").click(function(){
-    $("#development-image").show(500);
-    $("#development").hide(500);
+    $("#development-image").hide();
+    $("#development").show();
+
   });
 });
 
 $(document).ready(function(){
   $("#design-image").click(function(){
-    $("#design").show(500);
-    $("#design-image").hide(500);
-  });
-  $("#design").click(function(){
-    $("#design-image").show(500);
-    $("#design").hide(500);
+    $("#design-image").hide();
+    $("#design").show();
+
   });
 });
 
 $(document).ready(function(){
   $("#product-image").click(function(){
-    $("#product").show(500);
-    $("#product-image").hide(500);
-  });
-  $("#product").click(function(){
-    $("#product-image").show(500);
-    $("#product").hide(500);
-  });
-});
+    $("#product-image").hide();
+    $("#product").show();
+
+  })
 
 //Project Portfolios Hover functions
 
