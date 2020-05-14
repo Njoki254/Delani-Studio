@@ -130,8 +130,11 @@ footer{
   text-align: center;
   padding-top: 30px;
 }
-  button{
-    margin-left: 2%;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-  }
+#product, #development, #design{
+  display: none;
+  font-family: 'Copse', serif;
+  font-size: 16px;
+}
+#product .title, #development .title, #design .title{
+  font-size: 20px;
+  font-weight: 600;

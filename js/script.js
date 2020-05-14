@@ -1,7 +1,6 @@
-// Form function
+
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
-    // event.preventDefault();
     var name = $("input#clientname").val();
     var email = $("input#emailA").val();
     var message = $("textarea#comment").val();
@@ -15,8 +14,6 @@ $(document).ready(function(){
   });
 
 });
-
-//What we do click function
 
 $(document).ready(function(){
   $("#dev-image").click(function(){
@@ -50,8 +47,6 @@ $(document).ready(function(){
     $("#product").hide(500);
   });
 });
-
-//Project Portfolios Hover functions
 
 $(document).ready(function(){
   $("#work1").mouseenter(function(){
