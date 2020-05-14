@@ -2,11 +2,11 @@
 $(document).ready(function(){
   $("form#form34A").submit(function(event){
     // event.preventDefault();
-    var name = $("input#MERGE1").val();
-    var email = $("input#MERGE0").val();
+    var name = $("input#clientname").val();
+    var email = $("input#emailA").val();
     var message = $("textarea#comment").val();
-    if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-      alert (name + ", we have received your response and will get back to you soon. Cheers!");
+    if ($("input#clientname").val() && $("input#emailA").val()){
+      alert ("We have received your response and will get back to you soon. Cheers!");
     }
     else {
       alert("Please enter your name and email address!");
@@ -45,7 +45,7 @@ $(document).ready(function(){
     $("#product").show(500);
     $("#product-image").hide(500);
   });
-  $("#product").mouseout(function(){
+  $("#product").click(function(){
     $("#product-image").show(500);
     $("#product").hide(500);
   });
